@@ -39,7 +39,7 @@ services:
 
   ################################################################################
 
-  cdp-node-backend-template:
+  cdp-postgres-restore:
     build:
       context: .
       target: development
